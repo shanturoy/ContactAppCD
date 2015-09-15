@@ -14,6 +14,7 @@
 		DEE474421BA67BDA00BE2529 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEE474411BA67BDA00BE2529 /* Images.xcassets */; };
 		DEE474451BA67BDA00BE2529 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEE474431BA67BDA00BE2529 /* LaunchScreen.xib */; };
 		DEE474511BA67BDA00BE2529 /* ContactAppCDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE474501BA67BDA00BE2529 /* ContactAppCDTests.swift */; };
+		DEE4745C1BA6809000BE2529 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE4745B1BA6809000BE2529 /* Contact.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		DEE4744A1BA67BDA00BE2529 /* ContactAppCDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContactAppCDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEE4744F1BA67BDA00BE2529 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DEE474501BA67BDA00BE2529 /* ContactAppCDTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactAppCDTests.swift; sourceTree = "<group>"; };
+		DEE4745B1BA6809000BE2529 /* Contact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		DEE474341BA67BDA00BE2529 /* ContactAppCD */ = {
 			isa = PBXGroup;
 			children = (
+				DEE4745A1BA67E8E00BE2529 /* Model */,
 				DEE474371BA67BDA00BE2529 /* AppDelegate.swift */,
 				DEE4743C1BA67BDA00BE2529 /* ViewController.swift */,
 				DEE4743E1BA67BDA00BE2529 /* Main.storyboard */,
@@ -113,6 +116,14 @@
 				DEE4744F1BA67BDA00BE2529 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DEE4745A1BA67E8E00BE2529 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DEE4745B1BA6809000BE2529 /* Contact.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,6 +226,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEE4745C1BA6809000BE2529 /* Contact.swift in Sources */,
 				DEE4743D1BA67BDA00BE2529 /* ViewController.swift in Sources */,
 				DEE474381BA67BDA00BE2529 /* AppDelegate.swift in Sources */,
 				DEE4743B1BA67BDA00BE2529 /* ContactAppCD.xcdatamodeld in Sources */,
